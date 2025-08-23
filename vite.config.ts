@@ -9,5 +9,9 @@ export default defineConfig({
     },
     plugins: [
         glsl()
-    ]
+    ],
+    base: '/Porfolio/',
+    build: {
+        outDir: 'dist'
+    }
 });
