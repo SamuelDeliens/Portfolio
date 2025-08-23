@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "deploy-gh": "npx gh-pages -d dist",
-    "deploy": "cp -r v2/dist/* dist/v2/ && gh-pages -d dist -s v2/dist"
+    "deploy": "npx gh-pages -d dist"
   },
   "devDependencies": {
     "@types/events": "^3.0.3",
