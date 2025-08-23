@@ -10,7 +10,7 @@ export default defineConfig({
     plugins: [
         glsl()
     ],
-    base: '/Porfolio/',
+    base: '/Portfolio/',
     build: {
         outDir: 'dist'
     }
