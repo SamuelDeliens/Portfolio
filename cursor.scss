@@ -3,7 +3,7 @@
   left:0; top:0;
   z-index:9999;
   opacity: 1;
-  transition: opacity 160ms ease;
+  transition: opacity 360ms ease;
 
   &.hidden {
     opacity:0;
@@ -42,7 +42,7 @@
     border-radius: 2rem;
     white-space: nowrap;
     pointer-events: none;
-    transition: opacity 120ms ease-out;
+    transition: opacity 320ms ease-out;
     opacity: 1;
 
     &.transparent {
